@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="widht=device-width, inital-scale=1.0">
+    <title>PESTI ANTAL</title>
+    <style>
+        /* css goes here */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header{
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+        }
+        section{
+            padding: 2rem;
+        }
+        .language-switch {
+            display: flex;
+            gap: 10px;
+            background-color: #333;
+        }
+        
+        .flag-link img {
+            width: 30px;
+            height: 20px;
+            border: 1px solid #ccc;
+            cursor: pointer;
+        }
+        .aboutme{
+            text-align: center;
+            padding: 50px;
+        }
+        .aboutme h2{
+            font-size: 36px;
+            color: #333;
+            margin-bottom: 20px;
+            position: relative;
+            display: inline-block;
+        }
+        .aboutme h2::before{
+            content: "";
+            position: absolute;
+            bottom: -5px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 50px;
+            height: 3px;
+            background-color: #3498db;
+        }
+        .aboutme p {
+            font-size: 18px;
+            color: #777;
+            line-height: 1.6;
+        }
+        .project{
+            border: 1px solid #ddd;
+            padding: 1rem;
+            margin-bottom: 1rem;
+        }
+        footer{
+            background-color: #333;
+            counter-reset: white;
+            text-align: center;
+        }
+    </style>    
+</head>
+<body>
+    <nav class="language-switch">
+        <a href="index.html" class="flag-link"><img src="files\gb.svg" alt="English" /></a>
+        <a href="index-hu.html" class="flag-link"><img src="files\hu.svg" alt="Magyar" /></a>
+    </nav>
+    <header>
+        <h1>PESTI ANTAL</h1>
+        <P>THE MOST EFFICIENT WEB DEV</P>
+
+    </header>
+    <section>
+        
+        <h2>PROJECTS</h2>
+        <div class="project">
+            <h3>WEBSHOP</h3>
+            <p>Propably the best webshop ever seen by humanity.</p>
+        </div>
+
+        <div class="project">
+            <h3>RESUME</h3>
+            <p>
+                <a href="files\cv.pdf" target="_blank">NEW TAB</a> <br>
+                <a href="files\cv.pdf" download>Download PDF</a>
+                
+            </p>
+        </div>
+
+        <div class="project">
+            <h3>CONTACT ME</h3>
+            <p>
+                email: pesti.antal1@gmail.com <br>
+                x: @pesti.antal
+            </p>
+        </div>
+    </section>
+    <div class="aboutme">
+        <h2>ABOUT ME</h2>
+        <p>Well, well, well, look who's stumbled upon my digital lair. I'm pesti.antal1, a software developer extraordinaire. If you're brave enough to stick around, prepare for a wild ride through my riveting life story.
+
+            I'm like a Python charmer, taming those slippery serpents of code. With Python, I can perform magic tricks like making data disappear... or reappear, depending on my mood. And let's not forget the endless joy of debugging indentation errors - a true exercise in Zen.
+            
+            Java and C++ are my other two favorite pastimes. Nothing says "fun" like drowning in curly braces or deciphering cryptic error messages. I embrace the challenge of languages that treat memory management like a game of chess - a game where I'm constantly being checkmated.
+            
+            Oh, artificial intelligence, the realm where machines become smarter than their creators. A bit like the plot of a dystopian sci-fi movie, but hey, who doesn't enjoy living in the shadow of a potential robot uprising? It's like a never-ending episode of "Will they or won't they overthrow humanity?"
+            
+            Internetworks are my playground, a labyrinth of data packets and networking protocols. Nothing gets my adrenaline pumping like watching a file upload progress bar move at the speed of a lethargic sloth on a summer afternoon.
+            
+            And as for fun projects, well, let's just say I have a knack for inventing solutions to problems that no one asked to be solved. From a chatbot that only communicates in Shakespearean insults to an AI algorithm that predicts the outcome of coin tosses, I'm basically an unstoppable force of innovation.
+            
+            So, if you're ready to dive headfirst into a world of tangled code, perplexing errors, and projects that make you question the very fabric of reality, stick around. Just remember, sarcasm is my love language, and debugging is my therapy. Welcome to the circus, my dear reader.
+            </p>
+                
+    </div>
+
+    <footer>
+        <p>&copy; 2023 Your Portfolio. All rights reserved.</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="widht=device-width, inital-scale=1.0">
+    <title>PESTI ANTAL</title>
+    <style>
+        /* css goes here */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header{
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+        }
+        section{
+            padding: 2rem;
+        }
+        .language-switch {
+            display: flex;
+            gap: 10px;
+            background-color: #333;
+        }
+        
+        .flag-link img {
+            width: 30px;
+            height: 20px;
+            border: 1px solid #ccc;
+            cursor: pointer;
+        }
+        .aboutme{
+            text-align: center;
+            padding: 50px;
+        }
+        .aboutme h2{
+            font-size: 36px;
+            color: #333;
+            margin-bottom: 20px;
+            position: relative;
+            display: inline-block;
+        }
+        .aboutme h2::before{
+            content: "";
+            position: absolute;
+            bottom: -5px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 50px;
+            height: 3px;
+            background-color: #3498db;
+        }
+        .aboutme p {
+            font-size: 18px;
+            color: #777;
+            line-height: 1.6;
+        }
+        .project{
+            border: 1px solid #ddd;
+            padding: 1rem;
+            margin-bottom: 1rem;
+        }
+        footer{
+            background-color: #333;
+            counter-reset: white;
+            text-align: center;
+        }
+    </style>    
+</head>
+<body>
+
+    <nav class="language-switch">
+        <a href="index.html" class="flag-link"><img src="files\gb.svg" alt="English" /></a>
+        <a href="index-hu.html" class="flag-link"><img src="files\hu.svg" alt="Magyar" /></a>
+    </nav>
+    
+
+
+    <header>
+
+        <h1>PESTI ANTAL</h1>
+        <P>A LEGHASZNOSABB WEBFEJLESZTŐ</P>
+
+    </header>
+    <section>
+        
+        <h2>PROJECTEK</h2>
+        <div class="project">
+            <h3>WEBSHOP</h3>
+            <p>Valószínűleg a legkirályabb webshop amit valaha látott emberiség.</p>
+        </div>
+
+        <div class="project">
+            <h3>ÖNÉLETRAJZ</h3>
+            <p>
+                <a href="files\cv.pdf" target="_blank">ÚJ TAB</a> <br>
+                <a href="files\cv.pdf" download>PDF LETÖLTÉS</a>
+                
+            </p>
+        </div>
+
+        <div class="project">
+            <h3>ELÉRHETŐSÉG</h3>
+            <p>
+                email: pesti.antal1@gmail.com <br>
+                x: @pesti.antal
+            </p>
+        </div>
+    </section>
+    <div class="aboutme">
+        <h2>RÓLAM</h2>
+            <p>Hát, hát, hát, nézd csak, ki botlott bele a digitális búvóhelyemre. pesti.antal1 vagyok, egy rendkívüli szoftverfejlesztő. Ha elég bátor vagy, hogy itt ragadj, készülj fel egy vad hajszára a pörgős életem történetén keresztül.
+
+                Mintha egy Python bűvészt látnál, aki megszelídíti ezeket a csúszós kígyókat a kódban. Pythonnal olyan varázstrükköket hajtok végre, mint az adatok eltűntetése... vagy újramegjelenítése, hangulatomtól függően. És ne felejtsük el a behúzott behúzási hibák végtelen örömét – egy igazi Zentorna.
+                
+                Java és C++ a másik két kedvenc időtöltésem. Semmi sem mondja annyira "szórakoztató", mint a kapkodás a kapcsos zárójelek között vagy a rejtélyes hibüzenetek megfejtése. Szeretem a kihívást, amit olyan nyelvek jelentenek, amelyek a memóriakezelést olyan szabályosan kezelik, mint egy sakkjátékot – egy olyan játékot, amelyben folyton sakkban vagyok.
+                
+                Az mesterséges intelligencia, a terület, ahol a gépek okosabbá válnak a teremtőiknél. Kissé olyan, mint egy disztópikus sci-fi film cselekménye, de hű, ki ne élvezné, hogy az emberiség potenciális robotlázadása árnyékában él? Mintha egy sosem végződő epizódot élne át a "Meg fogják vagy nem fogják megdönteni az emberiséget?" kérdésről.
+                
+                Az internetworks a játszótérem, egy labirintus adatakosokból és hálózati protokollokból. Semmi sem dobja fel az adrenalinomat úgy, mint a fájlfeltöltés előrehaladási sávjának lassú tekintetben történő haladása, mintha egy fáradt lajhár sebesült volna meg egy nyári délutánon.
+                
+                Ami pedig a szórakoztató projekteket illeti, hát, mondhatni, tehetségem van olyan problémák megoldására, amelyekre senki sem kért megoldást. Egy csevegőbot, amely csak Shakespeare-i sértésekben kommunikál, vagy egy AI algoritmus, amely előrejelezheti a pénzérme-dobás eredményét, lényegében az innováció elszánt ereje vagyok.
+                
+                Szóval, ha készen állsz egy kódokkal átitatott világba, bonyolult hibákba és projektekbe, amelyek megkérdőjelezik a valóság szerkezetét, maradj velünk. Csak ne felejtsd el, a szarkazmus az én szerelmes nyelvem, és a hibaelhárítás a terápiám. Üdvözöllek a cirkuszban, kedves olvasóm.
+                </p>
+                
+    </div>
+
+    <footer>
+        <p>&copy; 2023 Your Portfolio. All rights reserved.</p>
+    </footer>
+</body>
+</html>
