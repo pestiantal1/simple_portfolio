@@ -8,7 +8,26 @@ header{
     color: white;
     text-align: center;
     padding: 1rem;
+    display: flex;
+    align-items: cetner;
 }
+
+/*--LOGO--*/
+header img {
+    width: 100px; /* Adjust the width as needed */
+    height: auto;
+    margin-right: 10px; /* Add spacing between logo and header text */
+}
+
+h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    margin-left: auto; /* Push navigation links to the right */
+}
+/*--LOGO--*/
 section{
     padding: 2rem;
 }
@@ -60,3 +79,56 @@ footer{
     counter-reset: white;
     text-align: center;
 }
+
+/*--WEBSHOP--*/
+
+h1 {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+}
+
+.products {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 0px;
+}
+
+.product {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+    margin: 10px;
+    max-width: 300px;
+}
+
+.product img {
+    max-width: 100%;
+}
+
+.product h2 {
+    margin: 10px 0;
+}
+
+.product p {
+    font-weight: bold;
+    color: #333;
+}
+
+.product button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.product button:hover {
+    background-color: #444;
+}
+
+/*--WEBSHOP--*/
